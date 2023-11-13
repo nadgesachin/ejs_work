@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+}
+
+.ul_main{
+    display: flex;
+}
+
+li{
+    margin: 10px;
+}

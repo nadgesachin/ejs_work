@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+</head>
+<body>
+    <section>
+        <section>
+            <%- include('partials/header') %>
+        </section>
+    </section>
+    <h1 style="text-align: center">Your Data</h1>
+     <div style="text-align: center">
+            <p>Email: <%= data.email %></p>
+            <p>Password: <%= data.password %></p>
+     </div>
+</body>
+</html>
